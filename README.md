@@ -83,21 +83,14 @@ The project is deployed using **Vercel**, offering fast and reliable hosting for
 
 ## 🙋‍♀️ About Me
 
-**Sukanya Ghosh**
+Built with 🩷 by **Sukanya Ghosh**
 [GitHub](https://github.com/sukanyaghosh74) · [LinkedIn](https://www.linkedin.com/in/sukanya-ghosh-706129274)
 
 ---
 
 ## 📧 Contact
 
-For any queries related to this project or the assignment, feel free to reach out via LinkedIn or the email used in your application.
-
----
-
-## 🏁 Submission Info
-
-**Deadline:** July 9th, 2025, 6 PM
-**Submission Format:** Deployed link via email only.
+For any queries related to this project, feel free to open an issue or drop me a text!
 
 ---
 
