@@ -23,7 +23,7 @@ The implementation aims to replicate both layouts in a single responsive page.
 
 * ✨ Fully responsive layout for desktop and mobile
 * 🧠 Clean semantic HTML5 structure
-* 🎨 Styled using [Tailwind CSS](https://tailwindcss.com/) (or plain CSS depending on setup)
+* 🎨 Styled using CSS
 * 🔤 Google Font: [Sora](https://fonts.google.com/specimen/Sora)
 * 📱 Mobile-first design approach
 * 🧩 Icons from a third-party icon library (if needed)
@@ -34,7 +34,7 @@ The implementation aims to replicate both layouts in a single responsive page.
 ## 🛠️ Tech Stack
 
 * **HTML5**
-* **CSS3** / Tailwind CSS (based on your preference)
+* **CSS3**
 * **Responsive Design Principles**
 * **Google Fonts**
 * **Vercel** for deployment
@@ -59,10 +59,7 @@ intervue_demo/
 ```bash
 git clone https://github.com/sukanyaghosh74/intervue_demo.git
 cd intervue_demo
-# If Tailwind used:
 npm install
-tailwindcss -i ./style.css -o ./output.css --watch
-# Otherwise, just open index.html directly
 ```
 
 ---
