@@ -26,7 +26,7 @@ The implementation aims to replicate both layouts in a single responsive page.
 * 🎨 Styled using CSS
 * 🔤 Google Font: [Sora](https://fonts.google.com/specimen/Sora)
 * 📱 Mobile-first design approach
-* 🧩 Icons from a third-party icon library (if needed)
+* 🧩 Icons from a third-party icon library
 * 🌐 Deployed via [Vercel](https://vercel.com)
 
 ---
