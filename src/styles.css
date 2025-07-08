@@ -391,6 +391,27 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0 !important;
 }
 
+.security-card-content-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+.security-card-arrow {
+  font-size: 1.3rem;
+  color: #222;
+  align-self: flex-end;
+  margin-left: 24px;
+  margin-top: 8px;
+}
+.security-card-content-row > div {
+  flex: 1 1 auto;
+}
+/* Adjust for half cards if needed */
+.security-card-half .security-card-content-row {
+  min-height: 80px;
+}
+
 @media (max-width: 900px) {
   .security-cards {
     grid-template-columns: 1fr;
@@ -811,8 +832,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 56px;
-  margin-bottom: 40px;
+  gap: 72px;
+  margin-bottom: 72px;
 }
 .footer-brand-block {
   display: flex;
@@ -826,7 +847,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-logo-img {
   height: 56px;
   width: auto;
-  margin-bottom: 36px;
+  margin-bottom: 44px;
   background: none;
   box-shadow: none;
 }
@@ -852,13 +873,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
   gap: 18px;
   width: 100%;
-  margin-bottom: 64px;
+  margin-bottom: 0;
 }
 .footer-newsletter-title {
   font-size: 1.35rem;
   font-weight: 700;
   color: #ffd600;
-  margin-bottom: 8px;
+  margin-bottom: 18px;
 }
 .footer-newsletter-form {
   display: flex;
@@ -874,8 +895,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 1.13rem;
   outline: none;
-  min-width: 220px;
-  width: 100%;
+  min-width: 320px;
+  width: 320px;
 }
 .footer-newsletter-input::placeholder {
   color: #bbb;
@@ -894,13 +915,14 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   margin-left: 0;
   transition: color 0.2s;
+  height: 40px;
 }
 .footer-newsletter-btn:hover {
   color: #fff;
 }
 .footer-links {
   display: flex;
-  gap: 96px;
+  gap: 88px;
   min-width: 600px;
   align-items: flex-start;
   margin-left: 0;
@@ -940,7 +962,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 56px;
+  margin-top: 80px;
   font-size: 1rem;
   color: #bbb;
   letter-spacing: 0.01em;
